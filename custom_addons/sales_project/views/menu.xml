@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="menu_sales_root" name="Sales Project"/>
+
+    <menuitem id="menu_sales_customer"
+              name="Customers"
+              parent="menu_sales_root"
+              action="action_sales_customer"/>
+
+    <menuitem id="menu_sales_order"
+          name="Sales Orders"
+          parent="menu_sales_root"
+          action="action_sales_order"/>
+    
+    <menuitem id="menu_sales_seller"
+          name="Sellers"
+          parent="menu_sales_root"
+          action="action_sales_seller"/>
+
+    <menuitem id="menu_sales_root" 
+          name="Sales Project"/>
+
+
+</odoo>
